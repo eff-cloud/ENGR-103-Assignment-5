@@ -1,0 +1,25 @@
+AI Reflection:
+For this assignment, I used ChatGPT to create a calculator.cpp program just based off the assignment 
+prompt and then compared the two.
+
+Two things the AI did well: The AI version used stringstream, which made the code easier to read and 
+understand by reducing the amount of manual string parsing required. This made the compute_value() 
+function shorter and easier to follow. The AI also showed using built-in C++ features can reduce the 
+chances of errors that sometimes occur when manually tracking string positions and building tokens 
+character by character.
+
+Two potential problems or unclear items: The AI's version did not strictly enforce all of the formatting 
+requirements described in the assignment. For example, it would accept expressions with multiple spaces 
+between tokens because stringstream automatically ignores extra whitespace. My version handled this more 
+accurately by explicitly checking for invalid spacing. Another issue was that the AI's solution focused 
+more on making the code concise and readable than on matching the assignment specification exactly. As a 
+result, I needed to compare its suggestions carefully against the assignment requirements before deciding 
+whether to use them, and even then someties I had to look up what they were doing to understand it.
+
+Would I trust this AI-generated code in a real project?
+
+Partially. The AI provided useful feedback about code organization, readability, and alternative 
+implementation methods. However, I would still review and test any suggested changes before using them. 
+In this case, the AI's solution was cleaner in some ways, but my original version followed the assignment 
+requirements more closely. Human review was necessary to make sure the final program met the project 
+specifications and behaved correctly in all required cases.
